@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>true</cleared>
+        <disabled>ignore</disabled>
+        <field>u_markdown</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>tuadmin_ws</sys_created_by>
+        <sys_created_on>2018-09-27 08:39:39</sys_created_on>
+        <sys_id>69c353addb38a30010b8f8fdbf961989</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>u_markdown</sys_name>
+        <sys_package display_value="Knowledge Markdown" source="bc8f0725db38a30010b8f8fdbf961972">bc8f0725db38a30010b8f8fdbf961972</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Global App">c6b222c393a73110dab470d19dba1075</sys_scope>
+        <sys_update_name>sys_ui_policy_action_69c353addb38a30010b8f8fdbf961989</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-10 03:33:47</sys_updated_on>
+        <table>kb_knowledge</table>
+        <ui_policy display_value="Show markdown checkbox">36a3df6ddb38a30010b8f8fdbf9619f2</ui_policy>
+        <visible>false</visible>
+    </sys_ui_policy_action>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="Global App">c6b222c393a73110dab470d19dba1075</claim_owner_scope>
+        <claim_timestamp>18cf16eed320000001</claim_timestamp>
+        <metadata_update_name>sys_ui_policy_action_69c353addb38a30010b8f8fdbf961989</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>Global App</previous_claim_name>
+        <previous_claim_scope>c6b222c393a73110dab470d19dba1075</previous_claim_scope>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-10 03:33:47</sys_created_on>
+        <sys_id>2cd3aec793a73110dab470d19dba1075</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-10 03:33:47</sys_updated_on>
+    </sys_claim>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="Global App">c6b222c393a73110dab470d19dba1075</claim_owner_scope>
+        <claim_timestamp>18cf16eed2f0000001</claim_timestamp>
+        <metadata_update_name>sys_ui_policy_action_69c353addb38a30010b8f8fdbf961989</metadata_update_name>
+        <previous_claim_app_version>1.0.1</previous_claim_app_version>
+        <previous_claim_name>Knowledge Markdown</previous_claim_name>
+        <previous_claim_scope>bc8f0725db38a30010b8f8fdbf961972</previous_claim_scope>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-10 03:33:47</sys_created_on>
+        <sys_id>ecd3aec793a73110dab470d19dba1075</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-10 03:33:47</sys_updated_on>
+    </sys_claim>
+</record_update>

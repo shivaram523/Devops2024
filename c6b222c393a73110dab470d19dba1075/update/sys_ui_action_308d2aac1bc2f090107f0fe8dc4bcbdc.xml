@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_action">
+    <sys_ui_action action="INSERT_OR_UPDATE">
+        <action_name>update_approver</action_name>
+        <active>true</active>
+        <client>true</client>
+        <client_script_v2><![CDATA[function onClick(g_form) {
+
+}]]></client_script_v2>
+        <comments/>
+        <condition>gs.hasRole('admin')</condition>
+        <form_action>true</form_action>
+        <form_button>false</form_button>
+        <form_button_v2>false</form_button_v2>
+        <form_context_menu>true</form_context_menu>
+        <form_link>false</form_link>
+        <form_menu_button_v2>false</form_menu_button_v2>
+        <form_style/>
+        <format_for_configurable_workspace>false</format_for_configurable_workspace>
+        <hint/>
+        <isolate_script>true</isolate_script>
+        <list_action>false</list_action>
+        <list_banner_button>false</list_banner_button>
+        <list_button>false</list_button>
+        <list_choice>false</list_choice>
+        <list_context_menu>false</list_context_menu>
+        <list_link>false</list_link>
+        <list_save_with_form_button>false</list_save_with_form_button>
+        <list_style/>
+        <messages/>
+        <name>Update Approver</name>
+        <onclick>updateApprover()</onclick>
+        <order>1000</order>
+        <script><![CDATA[function updateApprover() {
+	
+	//Initialize and open the Dialog Window
+	var dialog = new GlideDialogWindow("update_approver_dialog"); //Render the dialog
+	dialog.setTitle("Select Approver"); //Set the dialog title
+	dialog.setSize(400,170);
+	dialog.render(); //Open the dialog
+}]]></script>
+        <show_insert>false</show_insert>
+        <show_multiple_update>false</show_multiple_update>
+        <show_query>false</show_query>
+        <show_update>true</show_update>
+        <sys_class_name>sys_ui_action</sys_class_name>
+        <sys_created_by>ap.admin.lil3</sys_created_by>
+        <sys_created_on>2021-08-15 12:04:37</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>308d2aac1bc2f090107f0fe8dc4bcbdc</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_name>Update Approver</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Global App">c6b222c393a73110dab470d19dba1075</sys_scope>
+        <sys_update_name>sys_ui_action_308d2aac1bc2f090107f0fe8dc4bcbdc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-10 03:36:19</sys_updated_on>
+        <table>sysapproval_approver</table>
+        <ui11_compatible>true</ui11_compatible>
+        <ui16_compatible>false</ui16_compatible>
+    </sys_ui_action>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="Global App">c6b222c393a73110dab470d19dba1075</claim_owner_scope>
+        <claim_timestamp>18cf1713d2d0000001</claim_timestamp>
+        <metadata_update_name>sys_ui_action_308d2aac1bc2f090107f0fe8dc4bcbdc</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>Global App</previous_claim_name>
+        <previous_claim_scope>c6b222c393a73110dab470d19dba1075</previous_claim_scope>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-10 03:36:19</sys_created_on>
+        <sys_id>e564ae0b93a73110dab470d19dba1042</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-10 03:36:19</sys_updated_on>
+    </sys_claim>
+</record_update>
